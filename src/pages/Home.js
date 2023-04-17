@@ -7,11 +7,13 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 // Styles
 import "../styles/global.css";
+// Data
+import data from "../data/data";
 
 const Home = () => {
   return (
     <React.Fragment>
-      <Navigation />
+      <Navigation data={data} />
       <About />
       <Header />
       <Contact />
