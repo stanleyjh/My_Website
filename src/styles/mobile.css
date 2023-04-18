@@ -1,1 +1,22 @@
 /* Styles for mobile */
+/* @media screen and (max-width: 767px) { */
+@media screen and (max-width: 2000px) {
+  /* CSS styles for mobile devices */
+
+  /* Navigation  */
+  nav ul li {
+    font-size: 1.5em;
+    padding: 0.4em;
+  }
+  /* About */
+
+  /* Header */
+
+  /* Resume */
+
+  /* Projects */
+
+  /* Contact */
+
+  /* Footer */
+}

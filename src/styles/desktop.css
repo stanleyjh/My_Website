@@ -1,21 +1,31 @@
-/* Styles for desktop */
+@media screen and (min-width: 2000px) {
+  /* Styles for desktop */
 
-/* Navigation */
-nav {
-  border: 1px solid red;
-}
+  /* Navigation */
+  nav {
+    border: 1px solid red;
+  }
 
-nav ul {
-  color: lime;
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  align-items: center;
-  /* margin: 0; */
-  /* padding: 0; */
-  height: 100%;
-}
+  nav ul {
+    color: lime;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-nav ul li {
-  padding: 0 1em;
+  nav ul li {
+    padding: 0 1em;
+  }
+
+  /* About */
+
+  /* Header */
+
+  /* Resume */
+
+  /* Projects */
+
+  /* Contact */
+
+  /* Footer */
 }
