@@ -20,11 +20,22 @@ The directory structure within the 'src' folder is...
 - images: All images such as logos, backgrounds, and images are stored here.
 - styles: stores all the css styles. I have it separated between global, desktop, tablet, and mobile css stylesheets.
 
-## Development
+## Development Process
 
 I followed the mobile-first-design to first design for the smallest screen first and gradually working up to larger screen sizes.
 
-## Content
+## To-Do's
+
+### Optional
+
+- style sidebar
+
+# Sources
+
+- Simple color Palette: https://colorhunt.co/palette/3936464f45576d5d6ef4eee0
+- React Icons: https://react-icons.github.io/react-icons/
+
+# Content
 
 **Navigation**
 

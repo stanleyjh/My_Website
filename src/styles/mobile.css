@@ -9,6 +9,35 @@
     padding: 0.4em;
   }
   /* Hero */
+  .hero {
+    /* Image - adjust opacity to darken background image*/
+    background: rgba(0, 0, 0, 0.2) url("../assets/images/background2.jpg");
+    background-blend-mode: darken;
+
+    /* Positioning */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    /* align .hero-text center verically and horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* text */
+  .heroText {
+    /* adjustments */
+    padding: 1.5em;
+    margin: 1em;
+
+    /* style */
+    text-align: center;
+    border-radius: 3em;
+    backdrop-filter: blur(0.6em);
+  }
 
   /* About */
 
@@ -19,4 +48,35 @@
   /* Contact */
 
   /* Footer */
+
+  /* React Icons */
+  .reactIcons {
+    padding: 0 0.7em;
+    /* Adjust the size of the icons */
+    font-size: 1.5rem;
+  }
+
+  /* Buttons */
+  .btn {
+    /* style */
+    cursor: pointer;
+    background: none;
+
+    /* structure */
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    padding: 0.4rem 1rem;
+    margin: 0.5rem;
+    color: white;
+  }
+
+  .btn:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .btn:active {
+    position: relative;
+    top: 1px;
+    box-shadow: 2px 2px 2px rgb(38, 38, 38);
+  }
 }
