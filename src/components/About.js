@@ -22,9 +22,9 @@ const About = () => {
           career to software development on October 27th, 2019. Through
           extensive self-study and hands-on practice, I've developed a passion
           for programming and I've immersed myself in learning new technologies
-          and best practices. As I've on this new chapter, I'm eager to leverage
-          my existing knowledge and experience while continuing to grow and
-          develop as a software developer.
+          and best practices. As I embark on this new chapter, I'm eager to
+          leverage my existing knowledge and experience while continuing to grow
+          and develop as a software developer.
         </p>
 
         <ul>
