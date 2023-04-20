@@ -24,6 +24,8 @@ The directory structure within the 'src' folder is...
 
 I followed the mobile-first-design to first design for the smallest screen first and gradually working up to larger screen sizes.
 
+I used CSS Flexbox to handle most of the alignment since all items I wanted to position were laid out on a single axis (either horizontally or vertically).
+
 ## To-Do's
 
 ### Optional

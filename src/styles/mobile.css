@@ -26,7 +26,6 @@
     align-items: center;
     justify-content: center;
   }
-
   /* text */
   .heroText {
     /* adjustments */
@@ -40,6 +39,29 @@
   }
 
   /* About */
+  .about {
+    padding: 2rem 1rem;
+    /* center image */
+    text-align: center;
+  }
+
+  .about img {
+    border-radius: 1rem;
+    width: 10rem;
+    /* center image */
+    text-align: center;
+  }
+  .about div {
+    text-align: left;
+  }
+  .about ul {
+    list-style: none;
+    padding-inline-start: 0;
+  }
+
+  .about li {
+    padding: 0.4rem;
+  }
 
   /* Resume */
 

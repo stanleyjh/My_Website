@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <header className="hero">
       <div className="heroText">
-        <h1>Welcome</h1>
+        <h1>Hello!</h1>
         <p>
           My name is Stanley Ho and I'm a self-taught Full Stack Software
           Developer currently working at Booz Allen Hamilton.
