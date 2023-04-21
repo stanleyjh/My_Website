@@ -31,24 +31,23 @@ const About = () => {
           <li>
             <FaLocationArrow />
             <span className="boldText"> Location: </span>
-            <span>Leesburg, VA</span>
+            Leesburg, VA
           </li>
           <li>
             <FaRegStar />
             <span className="boldText"> Interests: </span>
-            <span>Billiards, Movies, Travelling</span>
+            Billiards, Movies, Travelling
           </li>
           <li>
             <FaGraduationCap />
             <span className="boldText"> Study: </span>
-            <span> Old Dominion University</span>
+            Old Dominion University
           </li>
           <li>
             <FaRegBuilding />
             <span className="boldText"> Employment: </span>
-            <span> Booz Allen Hamilton </span>
+            Booz Allen Hamilton
           </li>
-          <li></li>
         </ul>
       </div>
     </section>
