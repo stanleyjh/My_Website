@@ -63,6 +63,29 @@
     padding: 0.4rem;
   }
 
+  /* Schedule */
+  .schedule {
+    overflow-x: auto;
+    text-align: center;
+  }
+
+  .schedule table {
+    margin: auto;
+  }
+
+  .schedule table,
+  .schedule th,
+  .schedule td {
+    /* border outline */
+    border: 1pt solid white;
+    border-collapse: collapse;
+  }
+  .schedule th,
+  .schedule td {
+    padding: 0.2rem 0.7rem;
+    min-width: 3rem;
+  }
+
   /* Resume */
 
   /* Projects */

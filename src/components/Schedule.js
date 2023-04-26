@@ -11,171 +11,126 @@ const Schedule = () => {
             <th>Wednesday</th>
             <th>Thursday</th>
             <th>Friday</th>
-            <th>Saturday</th>
-            <th>Sunday</th>
+            {/* <th>Saturday</th> */}
+            {/* <th>Sunday</th> */}
           </tr>
         </thead>
         <tbody>
+          {/* <tr>
+            <td>7 AM</td>
+            <td>Wake up</td>
+            <td>Wake up</td>
+            <td>Wake up</td>
+            <td>Wake up</td>
+            <td>Wake up</td>
+            <td></td>
+            <td></td>
+          </tr> */}
           <tr>
-            <td>8:00am</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>8 AM</td>
+            <td rowSpan="4" colSpan="5">
+              Work
+            </td>
+            {/* <td rowSpan="4">Work</td>
+            <td rowSpan="4">Work</td>
+            <td rowSpan="4">Work</td>
+            <td rowSpan="4">Work</td> */}
+            {/* <td rowSpan="4"></td> */}
+            {/* <td>Wake up</td> */}
           </tr>
           <tr>
-            <td>9am</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>9 AM</td>
+            {/* <td rowSpan="3">Meal Prep</td> */}
           </tr>
           <tr>
-            <td>10am</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>10 AM</td>
           </tr>
           <tr>
-            <td>11am</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>11 AM</td>
           </tr>
           <tr>
-            <td>12pm</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>12 PM</td>
+            <td colSpan="5">Lunch</td>
+            {/* <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td> */}
           </tr>
           <tr>
-            <td>1pm</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>1 PM</td>
+            <td rowSpan="3" colSpan="5">
+              Work
+            </td>
+            {/* <td rowSpan="3">Work</td>
+            <td rowSpan="3">Work</td>
+            <td rowSpan="3">Work</td>
+            <td rowSpan="3">Work</td> */}
+            {/* <td rowSpan="5"></td> */}
+            {/* <td rowSpan="1">Clean</td> */}
           </tr>
           <tr>
-            <td>2pm</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>2 PM</td>
           </tr>
           <tr>
-            <td>3pm</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>3 PM</td>
           </tr>
           <tr>
-            <td>4pm</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>4 PM</td>
+            <td colSpan="2">Exercise</td>
+            <td rowSpan="2">Break</td>
+            <td colSpan="2">Exercise</td>
           </tr>
           <tr>
-            <td>5pm</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>5 PM</td>
+            <td colSpan="2">Learn</td>
+            <td colSpan="2">Learn</td>
           </tr>
           <tr>
-            <td>6pm</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>6 PM</td>
+            <td colSpan="5">Dinner</td>
+            {/* <td>Dinner</td>
+            <td>Dinner</td>
+            <td>Dinner</td>
+            <td>Dinner</td>
+            <td>Dinner</td>
+            <td>Dinner</td> */}
+          </tr>
+          {/*<tr>
+            <td>7 PM</td>
+            <td>Dinner</td>
+            <td>Dinner</td>
+            <td>Dinner</td>
+            <td>Dinner</td>
+            <td>Dinner</td>
           </tr>
           <tr>
-            <td>7pm</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>8 PM</td>
+            <td rowSpan="3"></td>
+            <td rowSpan="3"></td>
+            <td rowSpan="3"></td>
+            <td rowSpan="3"></td>
+            <td rowSpan="3"></td>
+            <td rowSpan="3"></td>
+            <td rowSpan="3"></td>
           </tr>
           <tr>
-            <td>8pm</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>9 PM</td>
           </tr>
           <tr>
-            <td>9pm</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
+            <td>10 PM</td>
           </tr>
           <tr>
-            <td>10pm</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>11pm</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>-</td>
-          </tr>
+            <td>11 PM</td>
+            <td>Sleep</td>
+            <td>Sleep</td>
+            <td>Sleep</td>
+            <td>Sleep</td>
+            <td>Sleep</td>
+            <td>Sleep</td>
+            <td>Sleep</td>
+          </tr> */}
         </tbody>
       </table>
     </section>

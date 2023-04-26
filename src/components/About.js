@@ -36,7 +36,7 @@ const About = () => {
           <li>
             <FaRegStar />
             <span className="boldText"> Interests: </span>
-            Billiards, Movies, Travelling
+            Exercising, Billiards, Movies, Travelling
           </li>
           <li>
             <FaGraduationCap />
