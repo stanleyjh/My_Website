@@ -2,6 +2,7 @@ import React from "react";
 // Components
 // import Navigation from "../components/Navigation";
 import About from "../components/About";
+import Schedule from "../components/Schedule";
 import Hero from "../components/Hero";
 import Resume from "../components/Resume";
 import Projects from "../components/Projects";
@@ -18,9 +19,10 @@ const Home = () => {
       {/* <Navigation data={data} /> */}
       <Hero />
       <About />
+      <Schedule />
       <Resume />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </React.Fragment>
   );

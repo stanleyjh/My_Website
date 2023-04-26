@@ -2,6 +2,8 @@
 
 I am a Full Stack Developer working at Booz Allen Hamilton. I am a self-taught programmer. I was previously working in IT and I began my journey to programming on October 27th, 2019.
 
+I first created my personal website using WordPress with the elementor plugin and Bluehost to host my website. I decided to create my own website using React, JavaScript, CSS and HTML to be able to be able to configure everything and save on hosting costs.
+
 # About the website
 
 ## Tech Stack

@@ -66,6 +66,16 @@
   /* Resume */
 
   /* Projects */
+  .projects {
+    text-align: center;
+  }
+  .projects img {
+    width: 90vw;
+  }
+
+  .projects img:hover {
+    opacity: 0.5;
+  }
 
   /* Contact */
 
