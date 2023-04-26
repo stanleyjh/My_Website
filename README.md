@@ -8,7 +8,7 @@ I first created my personal website using WordPress with the elementor plugin an
 
 ## Tech Stack
 
-HTML, CSS, JavaScript, React
+React, JavaScript, CSS, and HTML
 
 ## structure
 
