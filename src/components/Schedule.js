@@ -28,14 +28,14 @@ const Schedule = () => {
           </tr> */}
           <tr>
             <td>8 AM</td>
-            <td rowSpan="4" colSpan="5">
+            {/* <td rowSpan="4" colSpan="5">
               Work
-            </td>
-            {/* <td rowSpan="4">Work</td>
+            </td> */}
             <td rowSpan="4">Work</td>
             <td rowSpan="4">Work</td>
-            <td rowSpan="4">Work</td> */}
-            {/* <td rowSpan="4"></td> */}
+            <td rowSpan="4">Work</td>
+            <td rowSpan="4">Work</td>
+            <td rowSpan="4">Work</td>
             {/* <td>Wake up</td> */}
           </tr>
           <tr>
@@ -50,24 +50,23 @@ const Schedule = () => {
           </tr>
           <tr>
             <td>12 PM</td>
-            <td colSpan="5">Lunch</td>
-            {/* <td>Lunch</td>
+            {/* <td colSpan="5">Lunch</td> */}
             <td>Lunch</td>
             <td>Lunch</td>
             <td>Lunch</td>
             <td>Lunch</td>
-            <td>Lunch</td> */}
+            <td>Lunch</td>
           </tr>
           <tr>
             <td>1 PM</td>
-            <td rowSpan="3" colSpan="5">
+            {/* <td rowSpan="3" colSpan="5">
               Work
-            </td>
-            {/* <td rowSpan="3">Work</td>
+            </td> */}
             <td rowSpan="3">Work</td>
             <td rowSpan="3">Work</td>
-            <td rowSpan="3">Work</td> */}
-            {/* <td rowSpan="5"></td> */}
+            <td rowSpan="3">Work</td>
+            <td rowSpan="3">Work</td>
+            <td rowSpan="3">Work</td>
             {/* <td rowSpan="1">Clean</td> */}
           </tr>
           <tr>
@@ -78,14 +77,24 @@ const Schedule = () => {
           </tr>
           <tr>
             <td>4 PM</td>
-            <td colSpan="2">Exercise</td>
-            <td rowSpan="2">Break</td>
-            <td colSpan="2">Exercise</td>
+            {/* <td colSpan="2">Exercise</td> */}
+            <td>Exercise</td>
+            <td>Exercise</td>
+            {/* <td rowSpan="2">Break</td> */}
+            <td>Break</td>
+            {/* <td colSpan="2">Exercise</td> */}
+            <td>Exercise</td>
+            <td>Exercise</td>
           </tr>
           <tr>
             <td>5 PM</td>
-            <td colSpan="2">Break</td>
-            <td colSpan="2">Break</td>
+            {/* <td colSpan="2">Break</td> */}
+            {/* <td colSpan="2">Break</td> */}
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
           </tr>
           <tr>
             <td>6 PM</td>
