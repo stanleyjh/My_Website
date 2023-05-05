@@ -92,12 +92,25 @@
   .projects {
     text-align: center;
   }
-  .projects img {
-    width: 90vw;
+  .projects div {
+    background: gray;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
   }
-
-  .projects img:hover {
-    opacity: 0.5;
+  .projects h3 a {
+    text-decoration: none;
+  }
+  .projects img {
+    width: 85vw;
+  }
+  .projects button {
+    border: none;
+    background: none;
+    color: white;
+  }
+  .projects button:hover {
+    cursor: pointer;
   }
 
   /* Contact */
