@@ -6,10 +6,9 @@
 
 html,
 body {
-  background-color: #393646;
-  color: rgb(255, 255, 255);
   margin: 0;
   height: 100%;
+  background: rgb(245, 245, 245);
 }
 
 /* Navigation */
@@ -23,13 +22,31 @@ nav ul {
 }
 
 /* Hero */
+.hero {
+  color: white;
+}
 
 /* About */
+.about {
+  background-color: rgb(38, 38, 38);
+  color: white;
+}
+
+/* Schedule */
+
+table,
+th,
+td {
+  border: 1px solid #4f4557;
+}
 
 /* Resume */
 
 /* Projects */
-
+.projects {
+  background: #4f4557;
+  padding: 2rem;
+}
 /* Contact */
 
 /* Footer */

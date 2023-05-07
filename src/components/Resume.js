@@ -1,36 +1,38 @@
 const Resume = () => {
   return (
-    <section>
+    <section className="resume">
       <div className="grid-education">
-        <h2>Education</h2>
-        <h3>B.S.B.A in Information Systems & Technology</h3>
+        <h2>EDUCATION</h2>
+        <h3>Bachelors in Information Systems & Technology</h3>
         <h4>
           <span>Old Dominion University</span>
           <span> • </span>
           <span>May 2017</span>
         </h4>
       </div>
+      <hr />
       <div className="grid-skills">
-        <h2>Skills & Certifications</h2>
+        <h2 className="title-underline">SKILLS & CERTIFICATIONS</h2>
         <ul>
           <li>
-            <span className="boldText">Languages: </span> JavaScript, React,
-            SQL, XML, HTML, and CSS
+            <p className="boldText">Languages: </p> JavaScript, React, SQL,
+            HTML, CSS, XML
           </li>
           <li>
-            <span className="boldText">Technologies: </span>VA Code, SQL Server
+            <p className="boldText">Technologies: </p>VS Code, SQL Server
             Management Studio, Linux &#40;RHEL, CentOS 7.8&#41;, Shell
             Scripting, Docker, Nginx, PKI, Terminal, TCP/IP, Git, Github,
-            Gitlab, Jira, VirtualBox, SDLC, and WordPress
+            Gitlab, Jira, VirtualBox, SDLC, WordPress
           </li>
           <li>
-            <span className="boldText">Certifications: </span>CompTIA Security+
+            <p className="boldText">Certifications: </p>CompTIA Security+
             &#40;2022&#41;
           </li>
         </ul>
       </div>
+      <hr />
       <div className="grid-experience">
-        <h2>Experience</h2>
+        <h2>EXPERIENCE</h2>
         <h3>Full Stack Developer</h3>
         <h4>
           <span>Booz Allen Hamilton</span>

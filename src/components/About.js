@@ -1,4 +1,4 @@
-import Me from "../assets/images/me.jpg";
+import Me from "../assets/images/me3.jpg";
 import {
   FaLocationArrow,
   FaRegStar,

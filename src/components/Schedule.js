@@ -81,7 +81,7 @@ const Schedule = () => {
             <td>Exercise</td>
             <td>Exercise</td>
             {/* <td rowSpan="2">Break</td> */}
-            <td>Break</td>
+            <td rowSpan="2">Break</td>
             {/* <td colSpan="2">Exercise</td> */}
             <td>Exercise</td>
             <td>Exercise</td>
@@ -90,7 +90,6 @@ const Schedule = () => {
             <td>5 PM</td>
             {/* <td colSpan="2">Break</td> */}
             {/* <td colSpan="2">Break</td> */}
-            <td>Break</td>
             <td>Break</td>
             <td>Break</td>
             <td>Break</td>
