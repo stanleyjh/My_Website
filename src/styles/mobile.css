@@ -90,6 +90,17 @@
   /* Resume */
   .resume h2 {
     text-align: center;
+    color: black;
+  }
+  .resume {
+    color: #444;
+  }
+  .resume li {
+    margin: 0.5rem 0;
+  }
+  .resume h4 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
   }
   .resume hr {
     border: 0.1rem solid #c0c0c0;
@@ -98,10 +109,6 @@
   .grid-education {
     text-align: center;
     padding: 1rem;
-  }
-  .grid-education h3,
-  .grid-education h4 {
-    color: #444;
   }
   .grid-skills {
     padding: 1rem;
@@ -119,6 +126,12 @@
   }
   .grid-experience {
     padding: 1rem;
+    text-align: center;
+    color: #444;
+  }
+  .grid-experience ul {
+    padding-left: 0;
+    list-style: none;
   }
   /* Projects */
   .projects {

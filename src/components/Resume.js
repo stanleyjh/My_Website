@@ -15,8 +15,8 @@ const Resume = () => {
         <h2 className="title-underline">SKILLS & CERTIFICATIONS</h2>
         <ul>
           <li>
-            <p className="boldText">Languages: </p> JavaScript, React, SQL,
-            HTML, CSS, XML
+            <p className="boldText">Languages: </p> JavaScript,React, SQL, HTML,
+            CSS, XML
           </li>
           <li>
             <p className="boldText">Technologies: </p>VS Code, SQL Server
@@ -88,7 +88,7 @@ const Resume = () => {
             development methods for future replication.
           </li>
         </ul>
-        <h3>Software Developer &#40;Contract&#41;</h3>
+        <h3>Software Developer</h3>
         <h4>
           <span>Illuminate Mission Solutions</span>
           <span> • </span>
