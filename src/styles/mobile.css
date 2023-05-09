@@ -136,9 +136,15 @@
   /* Projects */
   .projects {
     text-align: center;
+    color: rgb(245, 245, 245);
+    padding: 1rem;
+  }
+  .projects h2 {
+    margin: 0;
+    padding: 1rem;
   }
   .projects div {
-    background: gray;
+    background: rgb(136, 136, 136);
     padding: 1rem;
     margin: 1rem;
     border-radius: 1rem;
@@ -152,8 +158,9 @@
   }
   .projects button {
     border: none;
+    border-radius: 2rem;
     background: none;
-    color: white;
+    color: #b9eddd;
   }
   .projects button:hover {
     cursor: pointer;

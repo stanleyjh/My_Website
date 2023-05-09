@@ -39,7 +39,7 @@ I used CSS Flexbox to handle most of the alignment since all items I wanted to p
 - [Portfolio Structure and Style](https://www.reactresume.com)
 - [Color Palette](https://colorhunt.co/palette/3936464f45576d5d6ef4eee0)
 - [Color Palette 2](https://colorhunt.co/palette/b9eddd87cbb9569daa577d86)
-- Additional colors - #444 (gray)
+- Additional colors - #444 (gray), rgb(245, 245, 245) (white)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Background Wallpaper](https://wallpapercrafter.com/217548-standing-on-the-coastline-of-rocky-beach-cove-at-s.html)
 
