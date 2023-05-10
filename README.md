@@ -6,7 +6,7 @@ I first created my personal website using WordPress with the elementor plugin an
 
 # About the website
 
-## Tech Stack
+## Programming Languages
 
 React, JavaScript, CSS, and HTML
 
@@ -30,11 +30,12 @@ I used CSS Flexbox to handle most of the alignment since all items I wanted to p
 
 ## To-Do's
 
-### Optional
+### Optional To-Do's
 
 - style sidebar
+- add button to go up
 
-# Sources
+# Sources and References
 
 - [Portfolio Structure and Style](https://www.reactresume.com)
 - [Color Palette](https://colorhunt.co/palette/3936464f45576d5d6ef4eee0)
