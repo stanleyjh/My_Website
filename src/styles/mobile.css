@@ -38,6 +38,8 @@
     backdrop-filter: blur(0.6em);
   }
 
+  /* Profile Links */
+
   /* About */
   .about {
     padding: 2rem 1rem;
@@ -135,6 +137,7 @@
   }
   /* Projects */
   .projects {
+    background: #4f4557;
     text-align: center;
     color: rgb(245, 245, 245);
     padding: 1rem;
@@ -160,7 +163,7 @@
     border: none;
     border-radius: 2rem;
     background: none;
-    color: #b9eddd;
+    /* color: #b9eddd; */
   }
   .projects button:hover {
     cursor: pointer;
