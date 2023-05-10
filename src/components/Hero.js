@@ -1,4 +1,6 @@
 import ProfileLinks from "./ProfileLinks";
+import { FaDownload } from "react-icons/fa";
+// import Resume from "";
 
 const Hero = () => {
   return (
@@ -10,11 +12,18 @@ const Hero = () => {
           Developer currently working at Booz Allen Hamilton.
         </p>
         <p>
-          In my free time, I enjoy weight lifting, playing billiards, catching
-          up on the latest movies, and travelling.
+          In my free time, I enjoy Exercising, playing Billiards, catching up on
+          the latest Movies, and Travelling.
         </p>
         <ProfileLinks />
-        <button className="btn">Resume</button>
+        <a
+          href="../assets/files/Stanley Ho Resume.pdf"
+          download="Stanley Ho Resume"
+        >
+          <button className="btn">
+            Resume <FaDownload />
+          </button>
+        </a>
         {/* <button className="btn">Contact</button> */}
       </div>
     </header>
