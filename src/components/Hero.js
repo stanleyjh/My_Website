@@ -7,15 +7,12 @@ const Hero = () => {
         <h1>Hello!</h1>
         <p>
           My name is Stanley Ho and I'm a self-taught Full Stack Software
-          Developer currently working at Booz Allen Hamilton.
-        </p>
-        <p>
-          In my free time, I play billards, catch up on the latest Movies, or
-          explore the DMV area.
+          Developer currently working at Booz Allen Hamilton. I enjoy
+          exercising, watching movies, playing billiards, and travelling.
         </p>
         <ProfileLinks />
-        <button className="btn">button1</button>
-        <button className="btn">button2</button>
+        <button className="btn">Resume</button>
+        {/* <button className="btn">Contact</button> */}
       </div>
     </header>
   );
