@@ -8,8 +8,9 @@ const Hero = () => {
       <div className="heroText">
         <h1>Hello!</h1>
         <p>
-          My name is Stanley Ho and I'm a self-taught Full Stack Software
-          Developer currently working at Booz Allen Hamilton.
+          My name is Stanley Ho and I'm a self-taught{" "}
+          <b>Full Stack Software Developer</b> currently working at Booz Allen
+          Hamilton.
         </p>
         <p>
           In my free time, I enjoy Exercising, playing Billiards, catching up on
