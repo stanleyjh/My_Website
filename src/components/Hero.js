@@ -7,8 +7,11 @@ const Hero = () => {
         <h1>Hello!</h1>
         <p>
           My name is Stanley Ho and I'm a self-taught Full Stack Software
-          Developer currently working at Booz Allen Hamilton. I enjoy
-          exercising, watching movies, playing billiards, and travelling.
+          Developer currently working at Booz Allen Hamilton.
+        </p>
+        <p>
+          In my free time, I enjoy weight lifting, playing billiards, catching
+          up on the latest movies, and travelling.
         </p>
         <ProfileLinks />
         <button className="btn">Resume</button>
