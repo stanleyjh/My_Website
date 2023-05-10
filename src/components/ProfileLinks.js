@@ -2,11 +2,23 @@ import { FaLinkedin, FaGithub, FaGitlab, FaCodepen } from "react-icons/fa";
 
 const ProfileLinks = () => {
   return (
-    <div>
-      <FaGithub className="reactIcons" />
-      <FaGitlab className="reactIcons" />
-      <FaCodepen className="reactIcons" />
-      <FaLinkedin className="reactIcons" />
+    <div className="profileLinks">
+      <a href="https://github.com/stanleyjh" target="_blank" rel="noreferrer">
+        <FaGithub className="reactIcons" />
+      </a>
+      <a href="https://gitlab.com/DEVstanley" target="_blank" rel="noreferrer">
+        <FaGitlab className="reactIcons" />
+      </a>
+      <a href="https://codepen.io/stanleyjh" target="_blank" rel="noreferrer">
+        <FaCodepen className="reactIcons" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/stanleyjh/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FaLinkedin className="reactIcons" />
+      </a>
     </div>
   );
 };
