@@ -10,8 +10,6 @@ import Menu from "../assets/images/projects/menu.jpg";
 const Projects = () => {
   const [show, setShow] = useState(true);
 
-  console.log(show);
-
   return (
     <section className="projects">
       <h2>Projects</h2>
