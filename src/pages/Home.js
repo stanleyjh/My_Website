@@ -1,6 +1,6 @@
 import React from "react";
 // Components
-// import Navigation from "../components/Navigation";
+import Navigation from "../components/Navigation";
 import About from "../components/About";
 // import Schedule from "../components/Schedule";
 import Hero from "../components/Hero";
@@ -11,12 +11,12 @@ import Footer from "../components/Footer";
 // Styles
 import "../styles/global.css";
 // Data
-// import data from "../data/data";
+import data from "../data/data";
 
 const Home = () => {
   return (
     <React.Fragment>
-      {/* <Navigation data={data} /> */}
+      <Navigation data={data} />
       <Hero />
       <About />
       {/* <Schedule /> */}

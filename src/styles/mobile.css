@@ -4,9 +4,23 @@
   /* CSS styles for mobile devices */
 
   /* Navigation  */
+
+  .nav-btn {
+    background: lightgreen;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    /* adding z-index to show on top the blurred hero message. */
+    z-index: 1;
+  }
+
+  nav ul {
+    margin: 0;
+  }
   nav ul li {
     font-size: 1.5em;
     padding: 0.4em;
+    color: white;
   }
   /* Hero */
   .hero {
@@ -19,12 +33,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 
     /* align .hero-text center verically and horizontally */
     display: flex;
     align-items: center;
     justify-content: center;
+
+    color: rgb(245, 245, 245);
   }
   /* text */
   .heroText {
@@ -36,9 +51,25 @@
     text-align: center;
     border-radius: 3em;
     backdrop-filter: blur(0.6em);
+    z-index: 0;
   }
 
   /* Profile Links */
+  .profileLinks a:visited {
+    color: rgb(245, 245, 245);
+  }
+  .reactIcons {
+    padding: 0 0.7em;
+    /* Adjust the size of the icons */
+    font-size: 1.5rem;
+  }
+  .reactIcons:hover {
+    color: #87cbb9;
+    transition-duration: 0.5s;
+  }
+  .reactIcons:visited {
+    color: white;
+  }
 
   /* About */
   .about {
@@ -174,16 +205,9 @@
   /* Footer */
   .footer {
     text-align: center;
-    color: rgb(245, 245, 245);
+    color: rgb(125, 125, 125);
     background: rgb(38, 38, 38);
     padding: 2rem;
-  }
-
-  /* React Icons */
-  .reactIcons {
-    padding: 0 0.7em;
-    /* Adjust the size of the icons */
-    font-size: 1.5rem;
   }
 
   /* Buttons */
@@ -193,11 +217,11 @@
     background: none;
 
     /* structure */
-    border: 0.1rem solid white;
+    border: 0.15rem solid #87cbb9;
     border-radius: 1rem;
-    padding: 0.4rem 1rem;
-    margin: 0.5rem;
-    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0.7rem;
+    color: rgb(245, 245, 245);
   }
 
   .btn:hover {
@@ -209,4 +233,18 @@
     top: 1px;
     box-shadow: 2px 2px 2px rgb(38, 38, 38);
   }
+
+  .btn a {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+  }
+
+  /* Scrollbar */
+  /* body::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #87cbb9;
+  } */
 }
