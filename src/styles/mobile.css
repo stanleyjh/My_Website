@@ -8,31 +8,70 @@
     position: fixed;
     top: 0;
     width: 100vw;
+    background: rgba(0, 0, 0, 0.4);
     /* adding z-index to show on top the blurred hero message. */
     z-index: 1;
   }
 
   .nav-btn {
-    background: lightgreen;
+    background: #87cbb9;
     position: absolute;
     top: 1rem;
     right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.2rem;
+    z-index: 2;
+  }
+  .hamburger-icon {
+    position: relative;
+    top: 2px;
+    color: white;
+  }
+  .nav-btn:active {
+    filter: brightness(70%);
   }
 
   /** hidden navbar **/
   .nav-list {
     margin: 0;
+    /* initial position. When .nav-list-active class is active, this will remove the transform property. */
     transform: translateY(-100%);
   }
   /** active navbar  **/
   .nav-list-active {
     transition: ease 0.5s;
-    color: white;
+    color: rgb(245, 245, 245);
+  }
+  nav ul {
+    list-style: none;
+    background: #232225;
+    margin: 0;
   }
   nav li {
     font-size: 1.5em;
     padding: 0.4em;
   }
+  nav li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+  }
+  nav li a:active {
+    color: rgb(160, 160, 160);
+  }
+  /** Transparent button after the nav list to close the nav bar **/
+  .close-nav-btn {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    /** add additional transparency to the button on top of the nav tag background attribute. **/
+    background: rgba(0, 0, 0, 0.01);
+    border: none;
+  }
+
   /* Hero */
   .hero {
     /* Image - adjust opacity to darken background image*/
@@ -79,7 +118,7 @@
     transition-duration: 0.5s;
   }
   .reactIcons:visited {
-    color: white;
+    color: rgb(245, 245, 245);
   }
 
   /* About */
@@ -207,7 +246,6 @@
     border: none;
     border-radius: 2rem;
     background: none;
-    /* color: #b9eddd; */
   }
   .projects button:hover {
     cursor: pointer;

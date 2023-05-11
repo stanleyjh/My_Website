@@ -1,3 +1,4 @@
+import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 
 const Navigation = ({ data }) => {
@@ -8,7 +9,7 @@ const Navigation = ({ data }) => {
   return (
     <nav>
       <button className="nav-btn" onClick={() => setShowNav(!showNav)}>
-        hamburger
+        <GiHamburgerMenu className="hamburger-icon" />
       </button>
       <div className={showNav ? "nav-list-active" : "nav-list"}>
         {showNav && (
@@ -16,13 +17,24 @@ const Navigation = ({ data }) => {
             {sections.map((section, index) => {
               return (
                 <li key={index}>
-                  <a href={`#${section}`}>{section}</a>
+                  <a href={`#${section}`} onClick={() => setShowNav(!showNav)}>
+                    {section}
+                  </a>
                 </li>
               );
             })}
           </ul>
         )}
       </div>
+      {/* A large transparent button after the navigation bar to close the navigation bar.*/}
+      {showNav && (
+        <div className="close-nav">
+          <button
+            className="close-nav-btn"
+            onClick={() => setShowNav(!showNav)}
+          ></button>
+        </div>
+      )}
     </nav>
   );
 };
