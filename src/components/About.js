@@ -8,7 +8,7 @@ import {
 
 const About = () => {
   return (
-    <section className="about">
+    <section id="About" className="about">
       <img src={Me} alt="self portrait" />
       <div>
         <h2>About Me</h2>

@@ -1,6 +1,6 @@
 const Resume = () => {
   return (
-    <section className="resume">
+    <section id="Resume" className="resume">
       <div className="grid-education">
         <h2>EDUCATION</h2>
         <h3>Bachelors in Information Systems & Technology</h3>

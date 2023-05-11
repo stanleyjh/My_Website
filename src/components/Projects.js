@@ -11,7 +11,7 @@ const Projects = () => {
   const [show, setShow] = useState(true);
 
   return (
-    <section className="projects">
+    <section id="Projects" className="projects">
       <h2>Projects</h2>
       <div>
         <a
