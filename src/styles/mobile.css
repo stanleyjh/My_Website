@@ -4,23 +4,34 @@
   /* CSS styles for mobile devices */
 
   /* Navigation  */
-
-  .nav-btn {
-    background: lightgreen;
+  nav {
     position: fixed;
-    top: 1rem;
-    right: 1rem;
+    top: 0;
+    width: 100vw;
     /* adding z-index to show on top the blurred hero message. */
     z-index: 1;
   }
 
-  nav ul {
-    margin: 0;
+  .nav-btn {
+    background: lightgreen;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
   }
-  nav ul li {
+
+  /** hidden navbar **/
+  .nav-list {
+    margin: 0;
+    transform: translateY(-100%);
+  }
+  /** active navbar  **/
+  .nav-list-active {
+    transition: ease 0.5s;
+    color: white;
+  }
+  nav li {
     font-size: 1.5em;
     padding: 0.4em;
-    color: white;
   }
   /* Hero */
   .hero {
@@ -73,6 +84,8 @@
 
   /* About */
   .about {
+    background-color: rgb(38, 38, 38);
+    color: rgb(245, 245, 245);
     padding: 2rem 1rem;
     /* center image */
     text-align: center;
