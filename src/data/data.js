@@ -1,5 +1,5 @@
 const data = {
-  navigation: ["About", "Resume", "Projects"],
+  navigation: ["Home", "About", "Resume", "Projects"],
 };
 
 export default data;
