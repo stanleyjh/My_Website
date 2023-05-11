@@ -4,7 +4,7 @@ import { FaDownload } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <header className="hero">
+    <header id="Home" className="hero">
       <div className="heroText">
         <h1>Hello!</h1>
         <p>
