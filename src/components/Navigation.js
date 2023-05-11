@@ -10,13 +10,19 @@ const Navigation = ({ data }) => {
       <button className="nav-btn" onClick={() => setShowNav(!showNav)}>
         hamburger
       </button>
-      {showNav && (
-        <ul>
-          {sections.map((section, index) => {
-            return <li key={index}>{section}</li>;
-          })}
-        </ul>
-      )}
+      <div className={showNav ? "nav-list-active" : "nav-list"}>
+        {showNav && (
+          <ul>
+            {sections.map((section, index) => {
+              return (
+                <li key={index}>
+                  <a href={`#${section}`}>{section}</a>
+                </li>
+              );
+            })}
+          </ul>
+        )}
+      </div>
     </nav>
   );
 };
