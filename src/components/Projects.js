@@ -3,6 +3,7 @@ import Project from "./Project";
 
 const Projects = () => {
   const { projects } = data;
+  // console.log(projects);
   return (
     <section id="Projects" className="projects">
       <h2>Projects</h2>

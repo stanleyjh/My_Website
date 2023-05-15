@@ -2,11 +2,12 @@ import { useState } from "react";
 
 const Project = (props) => {
   const [show, setShow] = useState(false);
-  const { about, image, link, name } = props;
+  // imageName property is a unique image name to reference a project image.
+  const { about, image, imageName, link, name } = props;
   return (
     <div>
       <a href={link} target="_blank" rel="noreferrer">
-        <img src={`image.${name}`} alt={`${name} project`} />
+        <img src={image[`${imageName}`]} alt={`${name} project`} />
       </a>
       <button
         onClick={() => {
