@@ -19,7 +19,7 @@ const Projects = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={Trivia} alt="project" />
+          <img src={Trivia} alt="trivia project" />
         </a>
         <button
           onClick={() => {
@@ -48,7 +48,7 @@ const Projects = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={Menu} alt="project" />
+          <img src={Menu} alt="menu project" />
         </a>
         <button
           onClick={() => {
@@ -77,7 +77,7 @@ const Projects = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={Tours} alt="project" />
+          <img src={Tours} alt="tours project" />
         </a>
         <button
           onClick={() => {
@@ -105,7 +105,7 @@ const Projects = () => {
       </div>
       <div>
         <a href="https://maymarpoke.com/" target="_blank" rel="noreferrer">
-          <img src={Maymar} alt="project" />
+          <img src={Maymar} alt="maymar poke & grill project" />
         </a>
         <button
           onClick={() => {
@@ -130,7 +130,7 @@ const Projects = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={Calculator} alt="project" />
+          <img src={Calculator} alt="calculator project" />
         </a>
         <button
           onClick={() => {
@@ -156,7 +156,7 @@ const Projects = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={DrumKit} alt="project" />
+          <img src={DrumKit} alt="drum kit project" />
         </a>
         <button
           onClick={() => {
@@ -180,7 +180,7 @@ const Projects = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={Clock} alt="project" />
+          <img src={Clock} alt="clock project" />
         </a>
         <button
           onClick={() => {
