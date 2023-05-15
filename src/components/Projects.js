@@ -26,7 +26,7 @@ const Projects = () => {
             setShow(!show);
           }}
         >
-          <h3>Trivia</h3>
+          <h3>&#91; Trivia &#93;</h3>
         </button>
         {show && (
           <p>
@@ -55,7 +55,7 @@ const Projects = () => {
             setShow(!show);
           }}
         >
-          <h3>Menu</h3>
+          <h3>&#91; Menu &#93;</h3>
         </button>
         {show && (
           <p>
@@ -84,7 +84,7 @@ const Projects = () => {
             setShow(!show);
           }}
         >
-          <h3>Tours</h3>
+          <h3>&#91; Tours &#93;</h3>
         </button>
         {show && (
           <p>
@@ -112,7 +112,7 @@ const Projects = () => {
             setShow(!show);
           }}
         >
-          <h3>Maymar Poke & Grill</h3>
+          <h3>&#91; Maymar Poke & Grill &#93;</h3>
         </button>
         {show && (
           <p>
@@ -137,7 +137,7 @@ const Projects = () => {
             setShow(!show);
           }}
         >
-          <h3>Calculator</h3>
+          <h3>&#91; Calculator &#93;</h3>
         </button>
         {show && (
           <p>
@@ -163,7 +163,7 @@ const Projects = () => {
             setShow(!show);
           }}
         >
-          <h3>Drum Kit</h3>
+          <h3>&#91; Drum Kit &#93;</h3>
         </button>
         {show && (
           <p>
@@ -187,7 +187,7 @@ const Projects = () => {
             setShow(!show);
           }}
         >
-          <h3>Clock</h3>
+          <h3>&#91; Clock &#93;</h3>
         </button>
         {show && (
           <p>

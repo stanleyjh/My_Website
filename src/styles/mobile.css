@@ -231,6 +231,9 @@
     margin: 0;
     padding: 1rem;
   }
+  .projects h3 {
+    color: rgb(245, 245, 245);
+  }
   .projects div {
     background: rgb(136, 136, 136);
     padding: 1rem;
