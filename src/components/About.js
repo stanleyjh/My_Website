@@ -26,7 +26,6 @@ const About = () => {
           leverage my existing knowledge and experience while continuing to grow
           and develop as a software developer.
         </p>
-
         <ul>
           <li>
             <FaLocationArrow />
