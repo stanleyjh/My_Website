@@ -1,17 +1,100 @@
+/* Styles for tablets */
 /* @media screen and (min-width: 768px) and (max-width: 999px) { */
-/* CSS styles for tablet devices */
+@media screen and (min-width: 768px) {
+  /* Navigation */
+  .nav-btn {
+    display: none;
+  }
+  nav {
+    padding: 1rem;
+    /* background: lightblue; */
+    position: fixed;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1rem);
+    /* adding z-index to show on top the blurred hero message. */
+    z-index: 1;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    font-weight: bold;
+    padding: 0.5rem;
+  }
+  nav li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+  }
+  nav li a:active {
+    color: rgb(160, 160, 160);
+  }
+  .close-nav {
+    display: none;
+  }
+  /* Hero */
+  .hero {
+    /* Image - adjust opacity to darken background image*/
+    background: rgba(0, 0, 0, 0.2) url("../assets/images/background2.jpg");
+    background-blend-mode: darken;
 
-/* Navigation */
+    /* Positioning */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-/* Hero */
+    /* align .hero-text center verically and horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-/* About */
+    color: rgb(245, 245, 245);
+  }
+  /* text */
+  .heroText {
+    /* adjustments */
+    padding: 1.5em;
+    margin: 1em;
 
-/* Resume */
+    /* style */
+    text-align: center;
+    border-radius: 3em;
+    backdrop-filter: blur(0.6em);
+    z-index: 0;
+  }
 
-/* Projects */
+  /* Profile Links */
+  .profileLinks a:visited {
+    color: rgb(245, 245, 245);
+  }
+  .reactIcons {
+    padding: 0 0.7em;
+    /* Adjust the size of the icons */
+    font-size: 1.5rem;
+  }
+  .reactIcons:hover {
+    color: #87cbb9;
+    transition-duration: 0.5s;
+  }
+  .reactIcons:visited {
+    color: rgb(245, 245, 245);
+  }
 
-/* Contact */
+  /* About */
 
-/* Footer */
-/* } */
+  /* Resume */
+
+  /* Projects */
+  .projects img {
+    max-width: 500px;
+  }
+  /* Contact */
+
+  /* Footer */
+}
