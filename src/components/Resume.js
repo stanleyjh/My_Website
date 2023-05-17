@@ -2,7 +2,9 @@ const Resume = () => {
   return (
     <section id="Resume" className="resume">
       <div className="grid-education">
-        <h2>EDUCATION</h2>
+        <h2>
+          <span className="underline">EDUCATION</span>
+        </h2>
         <h3>Bachelors in Information Systems & Technology</h3>
         <h4>
           <span>Old Dominion University</span>
@@ -12,7 +14,9 @@ const Resume = () => {
       </div>
       <hr />
       <div className="grid-skills">
-        <h2 className="title-underline">SKILLS & CERTIFICATIONS</h2>
+        <h2>
+          <span className="underline">SKILLS & CERTIFICATIONS</span>
+        </h2>
         <ul>
           <li>
             <p className="boldText">Languages: </p> JavaScript,React, SQL, HTML,
@@ -32,7 +36,9 @@ const Resume = () => {
       </div>
       <hr />
       <div className="grid-experience">
-        <h2>EXPERIENCE</h2>
+        <h2>
+          <span className="underline">EXPERIENCE</span>
+        </h2>
         <h3>Full Stack Developer</h3>
         <h4>
           <span>Booz Allen Hamilton</span>
