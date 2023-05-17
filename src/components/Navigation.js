@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 
 const Navigation = ({ data }) => {
   const sections = data.navigation;
-  // Show or hide mobile navigation.
-  const [showNav, setShowNav] = useState(false);
+  // Show or hide navigation.
+  const [showNav, setShowNav] = useState(true);
 
   // Show or hide mobile navigation based on screen size.
   const [showMobileNav, setShowMobileNav] = useState(false);
@@ -22,7 +22,7 @@ const Navigation = ({ data }) => {
     setSize(window.innerWidth);
   };
 
-  // useEffect to listen for window size adjustments.
+  // useEffect to add an event listener for window size adjustments.
   useEffect(() => {
     window.addEventListener("resize", checkSize);
 
@@ -33,7 +33,6 @@ const Navigation = ({ data }) => {
     // eslint-disable-next-line
   }, [size]);
 
-  // console.log(showNav);
   return (
     <nav>
       {showMobileNav && (
