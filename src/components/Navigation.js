@@ -1,31 +1,47 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState, useEffect } from "react";
-// import { useMediaQuery } from "react-responsive";
 
 const Navigation = ({ data }) => {
   const sections = data.navigation;
+  // Show or hide mobile navigation.
   const [showNav, setShowNav] = useState(false);
-  const [count, setCount] = useState(0);
 
-  // will be using useEffect to listen for window size adjustments.
+  // Show or hide mobile navigation based on screen size.
+  const [showMobileNav, setShowMobileNav] = useState(false);
+  const [size, setSize] = useState(window.innerWidth);
+
+  // Checks the size of the window to show or hide the mobile navigation menu.
+  const checkSize = () => {
+    if (size < 767) {
+      setShowNav(false);
+      setShowMobileNav(true);
+    } else if (size > 767) {
+      setShowNav(true);
+      setShowMobileNav(false);
+    }
+    setSize(window.innerWidth);
+  };
+
+  // useEffect to listen for window size adjustments.
   useEffect(() => {
-    console.log("effect");
-  }, []);
+    window.addEventListener("resize", checkSize);
 
-  console.log(showNav);
+    // cleanup Listener
+    return () => {
+      window.removeEventListener("resize", checkSize);
+    };
+    // eslint-disable-next-line
+  }, [size]);
+
+  // console.log(showNav);
   return (
     <nav>
-      <p style={{ color: "white" }}>{count}</p>
-      <button
-        onClick={() => {
-          setCount(count + 1);
-        }}
-      >
-        btn
-      </button>
-      <button className="nav-btn" onClick={() => setShowNav(!showNav)}>
-        <GiHamburgerMenu className="hamburger-icon" />
-      </button>
+      {showMobileNav && (
+        <button className="nav-btn" onClick={() => setShowNav(!showNav)}>
+          <GiHamburgerMenu className="hamburger-icon" />
+        </button>
+      )}
+
       <div className={showNav ? "nav-list-active" : "nav-list"}>
         {showNav && (
           <ul>
@@ -41,6 +57,7 @@ const Navigation = ({ data }) => {
           </ul>
         )}
       </div>
+
       {/* A large transparent button after the navigation bar to close the navigation bar.*/}
       {showNav && (
         <div className="close-nav">

@@ -1,5 +1,6 @@
 import React from "react";
 // Components
+// import Test from "../components/Test";
 import Navigation from "../components/Navigation";
 import About from "../components/About";
 // import Schedule from "../components/Schedule";
@@ -16,6 +17,7 @@ import data from "../data/data";
 const Home = () => {
   return (
     <React.Fragment>
+      {/* <Test /> */}
       <Navigation data={data} />
       <Hero />
       <About />
