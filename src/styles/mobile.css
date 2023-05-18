@@ -207,7 +207,7 @@
   .grid-skills ul li {
     padding: 0.5rem;
   }
-  .grid-skills ul li > p {
+  .grid-skills ul li p {
     margin: 0 0 0.3rem 0;
   }
   .grid-experience {
@@ -231,28 +231,31 @@
     margin: 0;
     padding: 1rem;
   }
-  .projects h3 {
-    color: rgb(245, 245, 245);
-  }
-  .projects div {
+
+  /* Project */
+  .project div {
     background: rgb(136, 136, 136);
     padding: 1rem;
     margin: 1rem;
     border-radius: 1rem;
   }
-  .projects h3 a {
-    text-decoration: none;
-  }
-  .projects img {
+
+  .project img {
     height: 100%;
     width: 100%;
   }
-  .projects button {
+  .project h3 a {
+    text-decoration: none;
+  }
+  .project button {
+    color: rgb(245, 245, 245);
+    font-size: 1.2rem;
     border: none;
     border-radius: 2rem;
     background: none;
+    padding: 0.7rem 0rem;
   }
-  .projects button:hover {
+  .project button:hover {
     cursor: pointer;
   }
 
@@ -309,5 +312,10 @@
   /* Text */
   .underline {
     border-bottom: 3px solid #87cbb9;
+  }
+
+  /* Other */
+  #hide-non-mobile {
+    display: none;
   }
 }
