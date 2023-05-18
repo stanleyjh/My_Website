@@ -27,8 +27,10 @@ const Project = (props) => {
         <a href={link} target="_blank" rel="noreferrer">
           <img src={image[`${imageName}`]} alt={`${name} project`} />
         </a>
-        <h3>{name}</h3>
-        <p>{about}</p>
+        <div>
+          <h3>{name}</h3>
+          <p>{about}</p>
+        </div>
       </div>
     </React.Fragment>
   );

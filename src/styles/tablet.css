@@ -239,7 +239,6 @@
     padding: 1rem;
     margin: 1rem;
     border-radius: 1rem;
-    grid-column: 1;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -247,21 +246,16 @@
   }
   .project div a {
     grid-column: 1;
-    grid-row: 1/3;
-    padding: 1rem;
   }
   .project div img {
     /* min-height: 70%; */
     width: 100%;
   }
+  .project div div {
+    grid-column: 2/4;
+  }
   .project div h3 {
     color: rgb(245, 245, 245);
-    grid-column: 2/4;
-    grid-row: 1;
-  }
-  .project div p {
-    grid-column: 2/4;
-    grid-row: 2;
   }
   /* Contact */
 
