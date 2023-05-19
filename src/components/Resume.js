@@ -40,7 +40,10 @@ const Resume = () => {
           <span className="underline">EXPERIENCE</span>
         </h2>
         <div className="experience-7">
-          <h3>Full Stack Developer</h3>
+          <h3>
+            Full Stack Developer
+            <img src="https://www.freecodecamp.org/news/content/images/2022/12/main-image.png" />
+          </h3>
           <h4>
             <span>Booz Allen Hamilton</span>
             <span> • </span>

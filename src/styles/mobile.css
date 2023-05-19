@@ -219,6 +219,9 @@
     text-align: center;
     color: #444;
   }
+  .grid-experience div h3 img {
+    display: none;
+  }
   .grid-experience ul {
     padding-left: 0;
     list-style: none;

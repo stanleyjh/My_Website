@@ -135,20 +135,20 @@
     text-align: left;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
     padding: 1rem;
   }
   .grid-education h2 {
     grid-column: 1;
-    grid-row: 1/4;
+    /* grid-row: 1/4; */
   }
   .grid-education h3 {
-    grid-row: 1;
     grid-column: 2/4;
+    /* grid-row: 1; */
   }
   .grid-education h4 {
-    grid-row: 2/4;
     grid-column: 2/4;
+    /* grid-row: 2/4; */
   }
 
   .grid-skills {
@@ -179,6 +179,11 @@
     color: #444;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+  }
+  .grid-experience div h3 img {
+    max-width: 300px;
+    width: 15%;
+    float: right;
   }
   .grid-experience ul {
     padding-left: 0;
