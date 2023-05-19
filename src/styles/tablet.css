@@ -234,28 +234,31 @@
 
   /* Project */
   /** Each individual project **/
-  .project div {
-    /* max-width: 500px; */
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 1rem;
-
+  .non-mobile-project-div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
   }
-  .project div a {
+  .non-mobile-project-div a {
+    padding: 0.5rem;
     grid-column: 1;
+    /** Vertically align image center  **/
+    display: flex;
+    align-items: center;
   }
-  .project div img {
-    /* min-height: 70%; */
+  .non-mobile-project-div a img {
     width: 100%;
+    box-shadow: 5px 5px 2px #393646;
   }
-  .project div div {
+  .non-mobile-project-div div {
     grid-column: 2/4;
+    padding: 1rem;
   }
-  .project div h3 {
+  .non-mobile-project-div div h3 {
     color: rgb(245, 245, 245);
+  }
+  .non-mobile-project-div div p {
+    line-height: 1.4rem;
   }
   /* Contact */
 
