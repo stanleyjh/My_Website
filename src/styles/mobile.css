@@ -219,7 +219,7 @@
     color: #444;
   }
   .grid-experience ul {
-    padding-left: 20px;
+    padding-left: 0;
     list-style: none;
     text-align: left;
   }
