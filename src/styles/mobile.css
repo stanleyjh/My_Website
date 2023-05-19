@@ -107,6 +107,7 @@
   }
 
   /* Profile Links */
+  .profileLinks a:link,
   .profileLinks a:visited {
     color: rgb(245, 245, 245);
   }
