@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.9eacde65.css",
-    "main.js": "/static/js/main.2840c4f0.js",
+    "main.css": "/static/css/main.5f512022.css",
+    "main.js": "/static/js/main.ec2ded7f.js",
     "static/media/background2.jpg": "/static/media/background2.669a5884790447470851.jpg",
-    "static/media/me.jpg": "/static/media/me.7c1fc355d0da04a3f6a4.jpg",
+    "static/media/drum-kit.jpg": "/static/media/drum-kit.6d783c8ab4f76fbe7916.jpg",
+    "static/media/menu.jpg": "/static/media/menu.d7cd461c26d211831b5b.jpg",
+    "static/media/maymar.jpg": "/static/media/maymar.61d1e4216c6a49931d45.jpg",
+    "static/media/tours.jpg": "/static/media/tours.903389346e5d0d9b3ab2.jpg",
+    "static/media/clock.jpg": "/static/media/clock.efc7cc6828ae378f880a.jpg",
+    "static/media/me3.jpg": "/static/media/me3.78eb6afa7294c5e73e21.jpg",
+    "static/media/trivia.jpg": "/static/media/trivia.619db83b3c0c352af323.jpg",
+    "static/media/calculator.jpg": "/static/media/calculator.14e770409fafe67d424f.jpg",
     "index.html": "/index.html",
-    "main.9eacde65.css.map": "/static/css/main.9eacde65.css.map",
-    "main.2840c4f0.js.map": "/static/js/main.2840c4f0.js.map"
+    "main.5f512022.css.map": "/static/css/main.5f512022.css.map",
+    "main.ec2ded7f.js.map": "/static/js/main.ec2ded7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9eacde65.css",
-    "static/js/main.2840c4f0.js"
+    "static/css/main.5f512022.css",
+    "static/js/main.ec2ded7f.js"
   ]
 }
