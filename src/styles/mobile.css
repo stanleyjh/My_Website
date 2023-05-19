@@ -3,7 +3,7 @@
   /* CSS styles for mobile devices */
 
   /* Navigation  */
-  nav {
+  .mobile-nav {
     position: fixed;
     top: 0;
     width: 100vw;
@@ -44,21 +44,21 @@
     transition: ease 0.5s;
     color: rgb(245, 245, 245);
   }
-  nav ul {
+  .mobile-nav ul {
     list-style: none;
     background: #232225;
     margin: 0;
   }
-  nav li {
+  .mobile-nav li {
     font-size: 1.5em;
     padding: 0.4em;
   }
-  nav li a {
+  .mobile-nav li a {
     display: block;
     text-decoration: none;
     color: rgb(245, 245, 245);
   }
-  nav li a:active {
+  .mobile-nav li a:active {
     color: rgb(160, 160, 160);
   }
   /** Transparent button after the nav list to close the nav bar **/
