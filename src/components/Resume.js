@@ -1,7 +1,7 @@
 const Resume = () => {
   return (
     <section id="Resume" className="resume">
-      <div className="grid-education">
+      <div className="grid-education center-item max-width">
         <h2>
           <span className="underline">EDUCATION</span>
         </h2>
@@ -13,7 +13,7 @@ const Resume = () => {
         </h4>
       </div>
       <hr />
-      <div className="grid-skills">
+      <div className="grid-skills center-item max-width">
         <h2>
           <span className="underline">SKILLS & CERTIFICATIONS</span>
         </h2>
@@ -35,7 +35,7 @@ const Resume = () => {
         </ul>
       </div>
       <hr />
-      <div className="grid-experience">
+      <div className="grid-experience center-item max-width">
         <h2>
           <span className="underline">EXPERIENCE</span>
         </h2>

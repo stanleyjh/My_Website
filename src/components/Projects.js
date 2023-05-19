@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section id="Projects" className="projects">
       <h2>Projects</h2>
-      <div className="project">
+      <div className="project center-item max-width">
         {projects.map((project, index) => {
           return <Project key={index} {...project} />;
         })}
