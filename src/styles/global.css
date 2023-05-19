@@ -36,3 +36,9 @@ td {
 .boldText {
   font-weight: bold;
 }
+.center-item {
+  margin: auto;
+}
+.max-width {
+  max-width: 1100px;
+}

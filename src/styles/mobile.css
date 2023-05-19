@@ -83,15 +83,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    /* align .hero-text center verically and horizontally */
+    /* align .hero-info center verically and horizontally */
     display: flex;
     align-items: center;
     justify-content: center;
 
     color: rgb(245, 245, 245);
   }
-  /** text **/
-  .hero-text {
+  /** info **/
+  .hero-info {
     /* adjustments */
     padding: 1.5em;
     margin: 1em;
@@ -128,15 +128,15 @@
     background-color: rgb(38, 38, 38);
     color: rgb(245, 245, 245);
     padding: 2rem 1rem;
-    /* center image */
-    text-align: center;
   }
 
   .about img {
     border-radius: 1rem;
     width: 10rem;
     /* center image */
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .about div {
     text-align: left;
@@ -219,8 +219,12 @@
     color: #444;
   }
   .grid-experience ul {
-    padding-left: 0;
+    padding-left: 20px;
     list-style: none;
+    text-align: left;
+  }
+  .grid-experience ul li {
+    padding: none;
   }
 
   /* Projects */

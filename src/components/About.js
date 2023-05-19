@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section id="About" className="about">
       <img src={Me} alt="self portrait" />
-      <div>
+      <div className="center-item max-width">
         <h2>About Me</h2>
         <p>
           I graduated Old Dominion University with a Bachelor's Degree in
