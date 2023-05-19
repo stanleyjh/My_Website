@@ -58,8 +58,8 @@
 
     color: rgb(245, 245, 245);
   }
-  /* text */
-  .heroText {
+  /** text **/
+  .hero-text {
     /* adjustments */
     padding: 1.5em;
     margin: 1em;

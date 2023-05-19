@@ -90,8 +90,8 @@
 
     color: rgb(245, 245, 245);
   }
-  /* text */
-  .heroText {
+  /** text **/
+  .hero-text {
     /* adjustments */
     padding: 1.5em;
     margin: 1em;
@@ -101,6 +101,9 @@
     border-radius: 3em;
     backdrop-filter: blur(0.6em);
     z-index: 0;
+  }
+  .hero-text p {
+    line-height: 1.5rem;
   }
 
   /* Profile Links */
@@ -139,7 +142,7 @@
     text-align: left;
   }
   .about p {
-    line-height: 1.3;
+    line-height: 1.5;
   }
   .about ul {
     list-style: none;
