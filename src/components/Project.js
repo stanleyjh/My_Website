@@ -9,7 +9,7 @@ const Project = (props) => {
   return (
     <React.Fragment>
       {/* mobile screen */}
-      <div id="hide-mobile" className="hide-mobile">
+      <div id="hide-mobile" className="project-div--mobile">
         <a href={link} target="_blank" rel="noreferrer">
           <img src={image[`${imageName}`]} alt={`${name} project`} />
         </a>
@@ -23,7 +23,7 @@ const Project = (props) => {
         {showDescription && <p>{about}</p>}
       </div>
       {/* non-mobile screen */}
-      <div id="hide-non-mobile" className="non-mobile-project-div">
+      <div id="hide-non-mobile" className="project-div--non-mobile">
         <a href={link} target="_blank" rel="noreferrer">
           <img src={image[`${imageName}`]} alt={`${name} project`} />
         </a>

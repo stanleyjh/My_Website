@@ -254,30 +254,33 @@
 
   /* Project */
   /** Each individual project **/
-  .non-mobile-project-div {
+  .project-div--non-mobile {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
   }
-  .non-mobile-project-div a {
+  .project-div--non-mobile a {
     padding: 0.5rem;
     grid-column: 1;
     /** Vertically align image center  **/
     display: flex;
     align-items: center;
   }
-  .non-mobile-project-div a img {
+  .project-div--non-mobile a img {
     width: 100%;
+    border-radius: 5px;
+  }
+  .project-div--non-mobile a img:hover {
     box-shadow: 5px 5px 2px #393646;
   }
-  .non-mobile-project-div div {
+  .project-div--non-mobile div {
     grid-column: 2/4;
     padding: 1rem;
   }
-  .non-mobile-project-div div h3 {
+  .project-div--non-mobile div h3 {
     color: rgb(245, 245, 245);
   }
-  .non-mobile-project-div div p {
+  .project-div--non-mobile div p {
     line-height: 1.4rem;
   }
   /* Contact */

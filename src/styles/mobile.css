@@ -261,30 +261,27 @@
   }
 
   /* Project */
-  .project div {
+  .project-div--mobile {
     background: rgb(136, 136, 136);
     padding: 1rem;
     margin: 1rem;
     border-radius: 1rem;
   }
 
-  .project img {
+  .project-div--mobile img {
     height: 100%;
     width: 100%;
   }
-  .project h3 a {
+  .project-div--mobile h3 a {
     text-decoration: none;
   }
-  .project button {
+  .project-div--mobile button {
     color: rgb(245, 245, 245);
     font-size: 1.2rem;
     border: none;
     border-radius: 2rem;
     background: none;
     padding: 0.7rem 0rem;
-  }
-  .project button:hover {
-    cursor: pointer;
   }
 
   /* Contact */
