@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f512022.css",
-    "main.js": "/static/js/main.ec2ded7f.js",
+    "main.css": "/static/css/main.02107670.css",
+    "main.js": "/static/js/main.43f57adc.js",
     "static/media/background2.jpg": "/static/media/background2.669a5884790447470851.jpg",
     "static/media/drum-kit.jpg": "/static/media/drum-kit.6d783c8ab4f76fbe7916.jpg",
     "static/media/menu.jpg": "/static/media/menu.d7cd461c26d211831b5b.jpg",
@@ -9,14 +9,19 @@
     "static/media/tours.jpg": "/static/media/tours.903389346e5d0d9b3ab2.jpg",
     "static/media/clock.jpg": "/static/media/clock.efc7cc6828ae378f880a.jpg",
     "static/media/me3.jpg": "/static/media/me3.78eb6afa7294c5e73e21.jpg",
+    "static/media/Stanley Ho Resume.pdf": "/static/media/Stanley Ho Resume.d7c3d9828491a9881761.pdf",
     "static/media/trivia.jpg": "/static/media/trivia.619db83b3c0c352af323.jpg",
+    "static/media/BAH.png": "/static/media/BAH.98d36d30e12631868e6f.png",
     "static/media/calculator.jpg": "/static/media/calculator.14e770409fafe67d424f.jpg",
+    "static/media/Illuminate.png": "/static/media/Illuminate.0e775f16d670325538ea.png",
+    "static/media/Leidos.png": "/static/media/Leidos.c1b79e2a90a1b6af9005.png",
+    "static/media/costar.png": "/static/media/costar.3a31039c8d0c95639df5.png",
     "index.html": "/index.html",
-    "main.5f512022.css.map": "/static/css/main.5f512022.css.map",
-    "main.ec2ded7f.js.map": "/static/js/main.ec2ded7f.js.map"
+    "main.02107670.css.map": "/static/css/main.02107670.css.map",
+    "main.43f57adc.js.map": "/static/js/main.43f57adc.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f512022.css",
-    "static/js/main.ec2ded7f.js"
+    "static/css/main.02107670.css",
+    "static/js/main.43f57adc.js"
   ]
 }
