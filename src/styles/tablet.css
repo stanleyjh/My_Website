@@ -181,8 +181,7 @@
     grid-template-columns: repeat(4, 1fr);
   }
   .grid-experience div h3 img {
-    max-width: 300px;
-    width: 15%;
+    width: 10%;
     float: right;
   }
   .grid-experience ul {

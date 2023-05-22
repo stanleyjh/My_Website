@@ -1,3 +1,11 @@
+import BAH from "../assets/images/company_logos/BAH.png";
+import Costar from "../assets/images/company_logos/costar.png";
+import Harborgroup from "../assets/images/company_logos/harborgroup.png";
+import Leidos from "../assets/images/company_logos/Leidos.png";
+import Illuminate from "../assets/images/company_logos/Illuminate.png";
+import Synology from "../assets/images/company_logos/synology.png";
+import ODU from "../assets/images/company_logos/odu.png";
+
 const Resume = () => {
   return (
     <section id="Resume" className="resume">
@@ -42,7 +50,7 @@ const Resume = () => {
         <div className="experience-7">
           <h3>
             Full Stack Developer
-            <img src="https://www.freecodecamp.org/news/content/images/2022/12/main-image.png" />
+            <img src={BAH} alt="Booz Allen Hamilton company logo" />
           </h3>
           <h4>
             <span>Booz Allen Hamilton</span>
@@ -68,7 +76,10 @@ const Resume = () => {
           </ul>
         </div>
         <div className="experience-6">
-          <h3>JavaScript Developer</h3>
+          <h3>
+            JavaScript Developer
+            <img src={Leidos} alt="Leidos company logo" />
+          </h3>
           <h4>
             <span>Leidos</span>
             <span> • </span>
@@ -102,7 +113,13 @@ const Resume = () => {
           </ul>
         </div>
         <div className="experience-5">
-          <h3>Software Developer</h3>
+          <h3>
+            Software Developer{" "}
+            <img
+              src={Illuminate}
+              alt="Illuminate Mission Solutions Company Logo"
+            />
+          </h3>
           <h4>
             <span>Illuminate Mission Solutions</span>
             <span> • </span>
@@ -140,7 +157,10 @@ const Resume = () => {
           </ul>
         </div>
         <div className="experience-4">
-          <h3>Systems Support Specialist</h3>
+          <h3>
+            Systems Support Specialist{" "}
+            <img src={Costar} alt="Costar Group Company Logo" />
+          </h3>
           <h4>
             <span>CoStar Group</span>
             <span> • </span>
@@ -172,7 +192,10 @@ const Resume = () => {
           </ul>
         </div>
         <div className="experience-3">
-          <h3>Technical Support Analyst</h3>
+          <h3>
+            Technical Support Analyst{" "}
+            <img src={Synology} alt="Synology company logo" />
+          </h3>
           <h4>
             <span>Synology</span>
             <span> • </span>
@@ -198,7 +221,10 @@ const Resume = () => {
           </ul>
         </div>
         <div className="experience-2">
-          <h3>IT Intern</h3>
+          <h3>
+            IT Intern{" "}
+            <img src={Harborgroup} alt="Harbor Group Management company logo" />
+          </h3>
           <h4>
             <span>Harbor Group Management</span>
             <span> • </span>
@@ -220,7 +246,10 @@ const Resume = () => {
           </ul>
         </div>
         <div className="experience-1">
-          <h3>IT Help Desk Lead</h3>
+          <h3>
+            IT Help Desk Lead{" "}
+            <img src={ODU} alt="Old Dominion University logo" />
+          </h3>
           <h4>
             <span>Old Dominion University</span>
             <span> • </span>
