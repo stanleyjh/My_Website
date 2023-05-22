@@ -1,4 +1,4 @@
-# Portfolio
+# [Portfolio](https://www.stanleyho.org)
 
 I first created my personal website using WordPress with the elementor plugin and Bluehost as the web hosting service. I was limited on how I could customize the site as well as paying a fee to have my website hosted. Today, my website is hosted on Github using React, JavaScript, CSS and HTML allowing me to configure everything and save on hosting costs. I purchased the domain name through google domains.
 
