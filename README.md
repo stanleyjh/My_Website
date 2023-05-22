@@ -23,7 +23,7 @@ Structure:
 1. I created a tree structure outline for my website of how I wanted to place the headings, text, and images.
 2. I created the directories for structure, assets, and styles.
 3. I created a basic component for each section and started building one section at a time.
-4. I moved some of the static content such as in the Projects section over to the data.js file. That way I can add new project information in data.js and it would automatically add the new project onto my website.
+4. I moved some of the static content such as the Projects section over to the data.js file. That way I can add new project information in data.js and the Projects component would automatically display the new project.
 
 Styling: I followed a mobile-first-design. I began designing for a mobile screen first and gradually worked up to the tablet and desktop screen. For styles that applied to all screen sizes, I placed the styles within the global.css file.
 
