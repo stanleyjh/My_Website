@@ -1,5 +1,4 @@
-/* Styles for tablets */
-/* @media screen and (min-width: 768px) and (max-width: 999px) { */
+/* Styles for tablet/desktop */
 @media screen and (min-width: 768px) {
   /* Body */
   * {
@@ -146,27 +145,27 @@
   }
   .resume hr {
     border: 0.1rem solid #c0c0c0;
-    max-width: 97%;
+    width: 97%;
+    max-width: 1100px;
   }
 
   .grid-education {
     text-align: left;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
     padding: 1rem;
   }
   .grid-education h2 {
     grid-column: 1;
-    /* grid-row: 1/4; */
+    margin-bottom: 0;
   }
   .grid-education h3 {
     grid-column: 2/4;
-    /* grid-row: 1; */
+    margin-bottom: 0;
   }
   .grid-education h4 {
+    margin-top: 0;
     grid-column: 2/4;
-    /* grid-row: 2/4; */
   }
 
   .grid-skills {
