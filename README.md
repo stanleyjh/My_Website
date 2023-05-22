@@ -14,7 +14,7 @@ The directory structure within the 'src' folder...
 - components: All react components for every section.
 - data: Data files to reference.
 - pages: Stores all web pages. Currently, there is a single page.
-- styles: CSS styles. I have it separated between global, desktop, tablet, and mobile css stylesheets.
+- styles: CSS styles. I have it separated between desktop and mobile css stylesheets.
 
 ## Development Process
 
@@ -25,12 +25,7 @@ Structure:
 3. I created a basic component for each section and started building one section at a time.
 4. I moved some of the static content such as the Projects section over to the data.js file. That way I can add new project information in data.js and the Projects component would automatically display the new project.
 
-Styling: I followed a mobile-first-design. I began designing for a mobile screen first and gradually worked up to the tablet and desktop screen. For styles that applied to all screen sizes, I placed the styles within the global.css file.
-
-## Optional To-Do's
-
-- Add a button to go back up to the hero section when scrolling down.
-- Add a Contact Me page.
+Styling: I followed a mobile-first-design. I began designing for a mobile screen first and then designing for a tablet/desktop screen. I used CSS Media Query for screen to apply CSS styling based on the screen width. Mobile (max-width: 767px), tablet/desktop (min-width: 768px).
 
 ## Sources and References
 
