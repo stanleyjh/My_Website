@@ -11,6 +11,8 @@
     margin: 0;
     height: 100%;
     background: rgb(245, 245, 245);
+    /** used for smooth transition when the btn-footer is pressed or transitioning to other parts of the page using buttons. **/
+    scroll-behavior: smooth;
   }
 
   /* Navigation  */
@@ -24,6 +26,7 @@
   }
 
   .nav-btn {
+    /** main blue color **/
     background: #87cbb9;
     position: absolute;
     top: 1rem;
@@ -139,7 +142,7 @@
   .about {
     background-color: rgb(38, 38, 38);
     color: rgb(245, 245, 245);
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
   }
 
   .about img {
@@ -195,12 +198,13 @@
   }
 
   /* Resume */
+  .resume {
+    color: #444;
+    padding: 1rem 0;
+  }
   .resume h2 {
     text-align: center;
     color: black;
-  }
-  .resume {
-    color: #444;
   }
   .resume li {
     margin: 0.5rem 0;
@@ -253,7 +257,7 @@
     background: #4f4557;
     text-align: center;
     color: rgb(245, 245, 245);
-    padding: 1rem;
+    padding: 2rem 1rem;
   }
   .projects h2 {
     margin: 0;
@@ -292,6 +296,20 @@
     color: rgb(125, 125, 125);
     background: rgb(38, 38, 38);
     padding: 2rem;
+    /** Adjusting for .btn-footer class **/
+    padding-top: 0;
+  }
+  .footer a {
+    width: 0;
+    height: 0;
+  }
+  .btn-footer {
+    position: relative;
+    bottom: 1.55rem;
+    border-radius: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #87cbb9;
   }
 
   /* Buttons */
