@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.02107670.css",
-    "main.js": "/static/js/main.2e9c9955.js",
+    "main.css": "/static/css/main.96306c88.css",
+    "main.js": "/static/js/main.0579899f.js",
     "static/media/background2.jpg": "/static/media/background2.669a5884790447470851.jpg",
     "static/media/drum-kit.jpg": "/static/media/drum-kit.6d783c8ab4f76fbe7916.jpg",
     "static/media/menu.jpg": "/static/media/menu.d7cd461c26d211831b5b.jpg",
@@ -17,11 +17,11 @@
     "static/media/Leidos.png": "/static/media/Leidos.c1b79e2a90a1b6af9005.png",
     "static/media/costar.png": "/static/media/costar.3a31039c8d0c95639df5.png",
     "index.html": "/index.html",
-    "main.02107670.css.map": "/static/css/main.02107670.css.map",
-    "main.2e9c9955.js.map": "/static/js/main.2e9c9955.js.map"
+    "main.96306c88.css.map": "/static/css/main.96306c88.css.map",
+    "main.0579899f.js.map": "/static/js/main.0579899f.js.map"
   },
   "entrypoints": [
-    "static/css/main.02107670.css",
-    "static/js/main.2e9c9955.js"
+    "static/css/main.96306c88.css",
+    "static/js/main.0579899f.js"
   ]
 }
