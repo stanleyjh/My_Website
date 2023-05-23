@@ -11,7 +11,7 @@ const Resume = () => {
     <section id="Resume" className="resume">
       <div className="grid-education center-item max-width">
         <h2>
-          <span className="underline">EDUCATION</span>
+          <span>EDUCATION</span>
         </h2>
         <h3>Bachelors in Information Systems & Technology</h3>
         <h4>
@@ -23,7 +23,7 @@ const Resume = () => {
       <hr />
       <div className="grid-skills center-item max-width">
         <h2>
-          <span className="underline">SKILLS & CERTIFICATIONS</span>
+          <span>SKILLS & CERTIFICATIONS</span>
         </h2>
         <ul>
           <li>
@@ -45,7 +45,7 @@ const Resume = () => {
       <hr />
       <div className="grid-experience center-item max-width">
         <h2>
-          <span className="underline">EXPERIENCE</span>
+          <span>EXPERIENCE</span>
         </h2>
         <div className="experience-7">
           <h3>
