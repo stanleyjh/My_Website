@@ -280,12 +280,14 @@
     text-decoration: none;
   }
   .project-div--mobile button {
-    color: rgb(245, 245, 245);
-    font-size: 1.2rem;
     border: none;
-    border-radius: 2rem;
     background: none;
     padding: 0.7rem 0rem;
+  }
+  .project-div--mobile button p {
+    color: rgb(245, 245, 245);
+    font-size: 1.3rem;
+    margin: 0;
   }
 
   /* Contact */

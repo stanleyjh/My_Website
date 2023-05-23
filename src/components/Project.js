@@ -18,7 +18,7 @@ const Project = (props) => {
             setShowDescription(!showDescription);
           }}
         >
-          &#91; {name} &#93;
+          <p className="underline">{name}</p>
         </button>
         {showDescription && <p>{about}</p>}
       </div>
