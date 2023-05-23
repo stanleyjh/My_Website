@@ -41,7 +41,7 @@ const Navigation = ({ data }) => {
           </div>
         )}
       </div>
-      <div id="hide-non-mobile" className="non-mobile-nav">
+      <div id="hide-desktop" className="nav--desktop">
         <ul>
           {sections.map((section, index) => {
             return (

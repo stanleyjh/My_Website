@@ -22,8 +22,8 @@ const Project = (props) => {
         </button>
         {showDescription && <p>{about}</p>}
       </div>
-      {/* non-mobile screen */}
-      <div id="hide-non-mobile" className="project-div--non-mobile">
+      {/* desktop screen */}
+      <div id="hide-desktop" className="project-div--desktop">
         <a href={link} target="_blank" rel="noreferrer">
           <img src={image[`${imageName}`]} alt={`${name} project`} />
         </a>
