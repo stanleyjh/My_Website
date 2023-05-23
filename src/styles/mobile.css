@@ -289,6 +289,14 @@
   }
 
   /* Contact */
+  .contact {
+    background: rgb(70, 70, 70);
+    padding: 2rem;
+    color: rgb(245, 245, 245);
+  }
+  .contact h2 {
+    margin: 0;
+  }
 
   /* Footer */
   .footer {
@@ -358,7 +366,7 @@
   }
 
   /* Other */
-  #hide-non-mobile {
+  #hide-desktop {
     display: none;
   }
   .boldText {

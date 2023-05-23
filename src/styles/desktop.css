@@ -256,33 +256,33 @@
 
   /* Project */
   /** Each individual project **/
-  .project-div--non-mobile {
+  .project-div--desktop {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
   }
-  .project-div--non-mobile a {
+  .project-div--desktop a {
     padding: 0.5rem;
     grid-column: 1;
     /** Vertically align image center  **/
     display: flex;
     align-items: center;
   }
-  .project-div--non-mobile a img {
+  .project-div--desktop a img {
     width: 100%;
     border-radius: 5px;
   }
-  .project-div--non-mobile a img:hover {
+  .project-div--desktop a img:hover {
     box-shadow: 5px 5px 2px #393646;
   }
-  .project-div--non-mobile div {
+  .project-div--desktop div {
     grid-column: 2/4;
     padding: 1rem;
   }
-  .project-div--non-mobile div h3 {
+  .project-div--desktop div h3 {
     color: rgb(245, 245, 245);
   }
-  .project-div--non-mobile div p {
+  .project-div--desktop div p {
     line-height: 1.4rem;
   }
   /* Contact */
