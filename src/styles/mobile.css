@@ -1,5 +1,6 @@
 /* Styles for mobile */
-@media screen and (max-width: 767px) {
+/* max-witdh: 767px */
+@media screen and (max-width: 47.938rem) {
   /* CSS styles for mobile devices */
 
   /* Body */
@@ -346,8 +347,8 @@
 
   .btn:active {
     position: relative;
-    top: 1px;
-    box-shadow: 2px 2px 2px rgb(38, 38, 38);
+    top: 0.1rem;
+    box-shadow: 0.15rem 0.15rem 0.15rem rgb(38, 38, 38);
   }
 
   .btn a {
@@ -366,7 +367,7 @@
 
   /* Text */
   .underline {
-    border-bottom: 3px solid #87cbb9;
+    border-bottom: 0.2rem solid #87cbb9;
   }
 
   /* Other */
@@ -380,6 +381,7 @@
     margin: auto;
   }
   .max-width {
-    max-width: 1100px;
+    /* 1100px */
+    max-width: 68.75rem;
   }
 }
