@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <section className="footer">
       <a href="#Home">
-        <button className="btn-footer">
+        <button className="btn-footer" tabIndex="-1">
           <IoIosArrowUp />
         </button>
       </a>

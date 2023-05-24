@@ -18,7 +18,8 @@ const Hero = () => {
         </p>
         <ProfileLinks />
         <a href={Resume} download="Stanley Ho Resume.pdf">
-          <button className="btn">
+          {/* Added tabIndex for accessibility since the <a> tag can already be tabbed to. */}
+          <button className="btn" tabIndex="-1">
             Resume <FaDownload />
           </button>
         </a>
