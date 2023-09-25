@@ -29,7 +29,6 @@ Styling: I followed a mobile-first-design. I began designing for a mobile screen
 
 ## Sources and References
 
-- [Portfolio Structure and Style](https://www.reactresume.com)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Hero Background](https://wallpapercrafter.com/217548-standing-on-the-coastline-of-rocky-beach-cove-at-s.html)
 - [Color Palette](https://colorhunt.co/palette/3936464f45576d5d6ef4eee0)
