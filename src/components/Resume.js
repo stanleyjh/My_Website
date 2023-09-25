@@ -27,13 +27,13 @@ const Resume = () => {
         </h2>
         <ul>
           <li>
-            <p className="boldText">Languages: </p> JavaScript,React, SQL, HTML,
-            CSS, XML
+            <p className="boldText">Languages: </p> JavaScript, Angular, React,
+            SQL, HTML, CSS, XML
           </li>
           <li>
-            <p className="boldText">Technologies: </p>VS Code, SQL Server
-            Management Studio, Linux &#40;RHEL, CentOS 7.8&#41;, Shell
-            Scripting, Docker, Nginx, PKI, Terminal, TCP/IP, Git, Github,
+            <p className="boldText">Technologies: </p>VS Code, Keycloak, Jest,
+            SQL Server Management Studio, Linux &#40;RHEL, CentOS 7.8&#41;,
+            Shell Scripting, Docker, Nginx, PKI, Terminal, TCP/IP, Git, Github,
             Gitlab, Jira, VirtualBox, SDLC, WordPress
           </li>
           <li>
@@ -59,9 +59,16 @@ const Resume = () => {
           </h4>
           <ul>
             <li>
-              Utilize educational resources to develop software development
-              skillset with React, Node, and Gitlab to design and build software
-              and system components.
+              Perform research on the functionality of the Keycloak-Angular
+              library to integrate within the current project.
+            </li>
+            <li>
+              Gain experience in creating unit tests for Angular services using
+              the Jest testing framework.
+            </li>
+            <li>
+              Create GitLab pipeline and coverage badges to show key information
+              about repository status.
             </li>
             <li>
               Collaborate in a Hackathon to build a global climate modeling
@@ -70,8 +77,8 @@ const Resume = () => {
               and developing the advanced tool.
             </li>
             <li>
-              Participate in daily Scrum meetings to discuss progress, blockers,
-              and upcoming tasks.
+              Implement version control best practices using Git, contributing
+              to a collaborative environment.
             </li>
           </ul>
         </div>
@@ -87,28 +94,24 @@ const Resume = () => {
           </h4>
           <ul>
             <li>
-              Developed web applications using JavaScript and XML according to
-              the FAA&#39;s standards, policies, and procedures.
+              Leveraged JavaScript, XML, and SQL to develop web applications in
+              accordance with FAA policies.
             </li>
             <li>
-              Written and test SQL queries to build data restrictions and
-              examine business data to apply them on Archibus pages.
-            </li>
-            <li>
-              Provided support to federal and contract employees using the
-              Archibus system.
+              Written and tested SQL queries to establish data restrictions and
+              performed data examination.
             </li>
             <li>
               Analyzed debug logs by stepping through code and setting
-              breakpoints using Chrome DevTools.
+              breakpoints with Chrome DevTools.
             </li>
             <li>
-              Reviewed the Archibus application and report findings on issues or
-              areas to be improved upon.
+              Conducted thorough application review to report findings on issues
+              or areas to be improved upon.
             </li>
             <li>
-              Created procedural documentation and document the evolution of
-              development methods for future replication.
+              Created procedural and developmental method documentation to
+              foster knowledge-sharing.
             </li>
           </ul>
         </div>
@@ -150,10 +153,6 @@ const Resume = () => {
               Worked closely with team members and utilized Jira's Kanban board
               to keep track of workflow.
             </li>
-            <li>
-              Routinely created technical documentation on build processes and
-              resolved issues.
-            </li>
           </ul>
         </div>
         <div className="experience-4">
@@ -184,11 +183,6 @@ const Resume = () => {
               Maintained Microsoft exchange mailboxes, distribution lists, and
               shared emails.
             </li>
-            <li>
-              Informed management of potential issues and identify problem
-              trends.
-            </li>
-            <li>Imaged and deployed Windows systems using Acronis.</li>
           </ul>
         </div>
         <div className="experience-3">
@@ -217,7 +211,6 @@ const Resume = () => {
               clients by demonstrating NAS partitioning, Cloud Backup, and
               Snapshot Replication to prevent data loss and ransomware attacks.
             </li>
-            <li>Analyzed debug logs for misconfigurations and errors.</li>
           </ul>
         </div>
         <div className="experience-2">
@@ -232,8 +225,10 @@ const Resume = () => {
           </h4>
           <ul>
             <li>
-              Worked on a project to implement a wireless network infrastructure
-              and new technologies in a residential area.
+              Spearheaded the research and development on a project primarily
+              aimed at implementing a wireless network infrastructure and
+              integrating innovative new technologies within a residential
+              neighborhood.
             </li>
             <li>
               Supported internal employees with hardware or software issues
