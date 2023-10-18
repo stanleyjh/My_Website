@@ -1,4 +1,4 @@
-import Maymar from "../assets/images/projects/maymar.jpg";
+import Maymar from "../assets/images/projects/maymar2.jpg";
 import Tours from "../assets/images/projects/tours.jpg";
 import Calculator from "../assets/images/projects/calculator.jpg";
 import Clock from "../assets/images/projects/clock.jpg";
