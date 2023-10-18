@@ -1,4 +1,4 @@
-import Maymar from "../assets/images/projects/maymar.jpg";
+import Maymar from "../assets/images/projects/maymar2.jpg";
 import Tours from "../assets/images/projects/tours.jpg";
 import Calculator from "../assets/images/projects/calculator.jpg";
 import Clock from "../assets/images/projects/clock.jpg";
@@ -11,7 +11,7 @@ const data = {
   projects: [
     {
       name: "Trivia",
-      link: "https://stanleyjh.gitlab.io/learn-react/questions-app/",
+      link: "https://gitlab.com/stanleyjh/learn-react/questions-app",
       image: { Trivia },
       imageName: "Trivia",
       about:
@@ -19,7 +19,7 @@ const data = {
     },
     {
       name: "Menu",
-      link: "https://stanleyjh.gitlab.io/learn-react/menu-app/",
+      link: "https://gitlab.com/stanleyjh/learn-react/menu-app",
       image: { Menu },
       imageName: "Menu",
       about:
@@ -27,7 +27,7 @@ const data = {
     },
     {
       name: "Tours",
-      link: "https://stanleyjh.gitlab.io/learn-react/tours-app/",
+      link: "https://gitlab.com/stanleyjh/learn-react/tours-app",
       image: { Tours },
       imageName: "Tours",
       about:
@@ -35,7 +35,7 @@ const data = {
     },
     {
       name: "Maymar Poke & Grill",
-      link: "https://maymarpoke.com/",
+      link: "https://github.com/stanleyjh/Maymar",
       image: { Maymar },
       imageName: "Maymar",
       about:
@@ -43,7 +43,7 @@ const data = {
     },
     {
       name: "Calculator",
-      link: "https://stanleyjh.github.io/Calculator/",
+      link: "https://github.com/stanleyjh/Calculator",
       image: { Calculator },
       imageName: "Calculator",
       about:
@@ -51,7 +51,7 @@ const data = {
     },
     {
       name: "Drum Kit",
-      link: "https://stanleyjh.github.io/Drum-Kit/",
+      link: "https://github.com/stanleyjh/Drum-Kit",
       image: { DrumKit },
       imageName: "DrumKit",
       about:
@@ -59,7 +59,7 @@ const data = {
     },
     {
       name: "Clock",
-      link: "https://stanleyjh.github.io/Clock/",
+      link: "https://github.com/stanleyjh/Clock",
       image: { Clock },
       imageName: "Clock",
       about:

@@ -242,16 +242,13 @@
     text-align: center;
     color: #444;
   }
-  .grid-experience div h3 img {
-    display: none;
+  .grid-experience h3 {
+    display: flex;
+    flex-direction: column;
   }
-  .grid-experience ul {
-    padding-left: 0;
-    list-style: none;
-    text-align: left;
-  }
-  .grid-experience ul li {
-    padding: none;
+  .grid-experience h3 span:nth-child(2),
+  .grid-experience h3 span:nth-child(3) {
+    font-weight: normal;
   }
 
   /* Projects */
