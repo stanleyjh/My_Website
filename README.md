@@ -22,10 +22,10 @@ Structure:
 
 1. I created a tree structure outline for my website of how I wanted to place the headings, text, and images.
 2. I created the directories for structure, assets, and styles.
-3. I created a basic component for each section and started building one section at a time.
-4. I moved some of the static content such as the Projects section over to the data.js file. That way I can add new project information in data.js and the Projects component would automatically display the new project.
+3. I created React components for each section and built one section at a time.
+4. I moved some of the static content such as the Projects section over to the data.js file. That way I can add new project information in data.js and the Projects component would automatically display the updated content.
 
-Styling: I followed a mobile-first-design. I began designing for a mobile screen first and then designing for a tablet/desktop screen. I used CSS Media Query for screen to apply CSS styling based on the screen width. Mobile (max-width: 767px), tablet/desktop (min-width: 768px).
+Styling: I followed a mobile-first-design. I began designing for a mobile screen first and then designing for a tablet/desktop screen. I used CSS Media Query for the screen to apply CSS styling based on the screen width. Mobile (max-width: 767px), tablet/desktop (min-width: 768px).
 
 ## Sources and References
 
