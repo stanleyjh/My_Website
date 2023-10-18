@@ -13,7 +13,7 @@ The directory structure within the 'src' folder...
 - assets: My resume and image files such as logos, project images, background, profile pictures, etc.
 - components: All react components for every section.
 - data: Data files to reference.
-- pages: Stores all web pages. Currently, there is a single page.
+- pages: Stores all web pages.
 - styles: CSS styles. I have it separated between desktop and mobile css stylesheets.
 
 ## Development Process
