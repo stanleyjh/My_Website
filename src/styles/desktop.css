@@ -200,17 +200,13 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
-  .grid-experience div h3 img {
-    width: 10%;
-    float: right;
+
+  .grid-experience div h3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: left;
   }
-  .grid-experience ul {
-    padding-left: 0;
-    list-style: none;
-  }
-  .grid-experience ul li {
-    padding: 0.2rem 0;
-  }
+
   .grid-experience h2 {
     grid-column: 1;
     grid-row: 1/8;
